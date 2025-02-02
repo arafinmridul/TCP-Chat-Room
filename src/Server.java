@@ -81,7 +81,7 @@ public class Server implements Runnable{
                 out.println("Please Enter a Nickname: ");
                 nickname = in.readLine();
                 System.out.println(nickname + " connected");
-                boradcast(nickname + "joined tha chat!");
+                boradcast(nickname + " joined the chat!");
 
                 String message;
                 while((message = in.readLine()) != null){
